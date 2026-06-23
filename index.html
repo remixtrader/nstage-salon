@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nstage Salon – Coiffure Homme & Femme | Agadir</title>
+  <meta name="description" content="Nstage Salon – Salon de coiffure professionnel à Agadir. Homme & Femme. Réservation en ligne. Prix en MAD." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ====== CURSOR ====== -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ====== PRELOADER ====== -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <h1 class="preloader-logo">NSTAGE</h1>
+      <div class="preloader-bar"><span></span></div>
+      <p class="preloader-sub">Salon de Coiffure</p>
+    </div>
+  </div>
+
+  <!-- ====== NAVBAR ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">NSTAGE<span>SALON</span></a>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#hero" class="nav-link active">Accueil</a></li>
+        <li><a href="#about" class="nav-link">À propos</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#team" class="nav-link">Équipe</a></li>
+        <li><a href="#gallery" class="nav-link">Galerie</a></li>
+        <li><a href="#testimonials" class="nav-link">Avis</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="#booking" class="nav-btn">Réserver</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero-overlay"></div>
+    <!-- Video background – change src to your video URL -->
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+      <source src="https://cdn.pixabay.com/vimeo/710392041/coiffure-120517.mp4?width=1280" type="video/mp4" />
+    </video>
+    <div class="hero-content">
+      <div class="hero-badge">Agadir – Maroc</div>
+      <h1 class="hero-title">
+        <span class="text-reveal">NSTAGE</span>
+        <span class="text-reveal delay-2">SALON</span>
+      </h1>
+      <p class="hero-sub">L'élégance de la coiffure Homme & Femme – Là où le style rencontre la perfection</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn-primary">
+          <span>Réserver maintenant</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+        <a href="#services" class="btn-secondary">
+          <span>Nos services</span>
+          <i class="fas fa-scissors"></i>
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Ans d'expérience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="50">0</span><span class="stat-plus">K+</span>
+          <span class="stat-label">Clients satisfaits</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num" data-count="100">0</span><span class="stat-plus">%</span>
+          <span class="stat-label">Qualité garantie</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll">
+      <span>Défiler</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT ====== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">À propos</span>
+        <h2 class="section-title">L'Art de la Coiffure <span>Moderne</span></h2>
+        <p class="section-desc">Chez Nstage Salon, chaque coupe est une œuvre d'art. Nous combinons techniques traditionnelles et tendances modernes.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image">
+          <div class="about-img-frame">
+            <div class="about-img-placeholder">
+              <i class="fas fa-cut"></i>
+              <span>Notre Salon</span>
+            </div>
+          </div>
+          <div class="about-exp">
+            <span class="exp-num">15+</span>
+            <span class="exp-text">Années d'excellence</span>
+          </div>
+        </div>
+        <div class="about-content">
+          <h3>Votre style, notre passion</h3>
+          <p>Nstage Salon est le rendez-vous incontournable de la coiffure à Agadir. Nous offrons une expérience unique pour homme et femme dans un cadre moderne et chaleureux.</p>
+          <div class="about-features">
+            <div class="a-feature">
+              <i class="fas fa-star"></i>
+              <div><h4>Qualité Premium</h4><p>Produits professionnels de luxe</p></div>
+            </div>
+            <div class="a-feature">
+              <i class="fas fa-clock"></i>
+              <div><h4>Horaires flexibles</h4><p>Lun-Sam 9h-20h</p></div>
+            </div>
+            <div class="a-feature">
+              <i class="fas fa-shield-alt"></i>
+              <div><h4>Hygiène stricte</h4><p>Normes sanitaires élevées</p></div>
+            </div>
+            <div class="a-feature">
+              <i class="fas fa-wifi"></i>
+              <div><h4>Confort</h4><p>Espace détente & Wi-Fi</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES (3D MENU) ====== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Services & Prix</span>
+        <h2 class="section-title">Notre <span>Menu</span> 3D</h2>
+        <p class="section-desc">Découvrez nos prestations – Cliquez pour explorer chaque service en 3D</p>
+      </div>
+      <!-- Tabs Homme / Femme -->
+      <div class="service-tabs">
+        <button class="tab-btn active" data-tab="homme">
+          <i class="fas fa-male"></i> Homme
+        </button>
+        <button class="tab-btn" data-tab="femme">
+          <i class="fas fa-female"></i> Femme
+        </button>
+      </div>
+      <div class="services-3d-container" id="services3d">
+        <!-- Homme -->
+        <div class="service-cards-3d active" data-tab="homme">
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-cut"></i></div>
+                <h3>Coupe Homme</h3>
+                <p>Coupe tendance + shampooing</p>
+                <span class="card-price">120 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Coupe Homme</h4>
+                <p>Coupe personnalisée selon votre morphologie et tendances. Shampooing & soin inclus.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Shampooing premium</li>
+                  <li><i class="fas fa-check"></i> Coiffage</li>
+                  <li><i class="fas fa-check"></i> Conseils personnalisés</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-beard"></i></div>
+                <h3>Barbe & Moustache</h3>
+                <p>Taille & soin de la barbe</p>
+                <span class="card-price">80 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Barbe & Moustache</h4>
+                <p>Taille précise au peigne et ciseaux, soin à l'huile naturelle.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Taille précise</li>
+                  <li><i class="fas fa-check"></i> Huile & soin</li>
+                  <li><i class="fas fa-check"></i> Rasage au cou</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-hand-sparkles"></i></div>
+                <h3>Shampooing Homme</h3>
+                <p>Soin capillaire complet</p>
+                <span class="card-price">60 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Shampooing Homme</h4>
+                <p>Shampooing professionnel avec massage du cuir chevelu.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Shampooing bio</li>
+                  <li><i class="fas fa-check"></i> Massage crânien</li>
+                  <li><i class="fas fa-check"></i> Après-shampooing</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-palette"></i></div>
+                <h3>Coloration Homme</h3>
+                <p>Couleur & retouche</p>
+                <span class="card-price">200 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Coloration Homme</h4>
+                <p>Coloration naturelle sans ammoniaque. Résultats éclatants.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Couleur sur mesure</li>
+                  <li><i class="fas fa-check"></i> Soin post-couleur</li>
+                  <li><i class="fas fa-check"></i> Tenue longue durée</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-layer-group"></i></div>
+                <h3>Défrisage Homme</h3>
+                <p>Lissage & défrisage</p>
+                <span class="card-price">250 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Défrisage Homme</h4>
+                <p>Traitement professionnel pour cheveux lisses et brillants.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Défrisage doux</li>
+                  <li><i class="fas fa-check"></i> Soin keratin</li>
+                  <li><i class="fas fa-check"></i> Brillance extrême</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-gem"></i></div>
+                <h3>Forfait Homme</h3>
+                <p>Coupe + Barbe + Soin</p>
+                <span class="card-price">250 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Forfait Homme</h4>
+                <p>Le pack complet : coupe tendance, barbe stylée et soin visage.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Coupe + Barbe</li>
+                  <li><i class="fas fa-check"></i> Soin visage</li>
+                  <li><i class="fas fa-check"></i> Boisson offerte</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Femme -->
+        <div class="service-cards-3d" data-tab="femme">
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-cut"></i></div>
+                <h3>Coupe Femme</h3>
+                <p>Coupe + mise en forme</p>
+                <span class="card-price">250 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Coupe Femme</h4>
+                <p>Coupe personnalisée selon votre visage et vos envies.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Consultation morpho</li>
+                  <li><i class="fas fa-check"></i> Coupe tendance</li>
+                  <li><i class="fas fa-check"></i> Brushing offert</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-palette"></i></div>
+                <h3>Coloration Femme</h3>
+                <p>Couleur + soin</p>
+                <span class="card-price">350 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Coloration Femme</h4>
+                <p>Coloration professionnelle aux pigments naturels.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Couleur sur mesure</li>
+                  <li><i class="fas fa-check"></i> Mèches / Balayage</li>
+                  <li><i class="fas fa-check"></i> Soin profond</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-wind"></i></div>
+                <h3>Brushing</h3>
+                <p>Brushing professionnel</p>
+                <span class="card-price">150 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Brushing</h4>
+                <p>Brushing tenue longue durée avec produits thermo-protecteurs.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Lissage ou volume</li>
+                  <li><i class="fas fa-check"></i> Thermo-protection</li>
+                  <li><i class="fas fa-check"></i> Spray brillance</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-star"></i></div>
+                <h3>Mèches & Balayage</h3>
+                <p>Effet soleil naturel</p>
+                <span class="card-price">500 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Mèches & Balayage</h4>
+                <p>Technique artisanale pour un effet lumineux naturel.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Balayage main levée</li>
+                  <li><i class="fas fa-check"></i> Mèches fines ou épaisses</li>
+                  <li><i class="fas fa-check"></i> Soin éclat</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-hand-holding-heart"></i></div>
+                <h3>Soin Capillaire</h3>
+                <p>Soin profond & masque</p>
+                <span class="card-price">200 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Soin Capillaire</h4>
+                <p>Traitement nutritif pour cheveux abîmés ou secs.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Masque hydratant</li>
+                  <li><i class="fas fa-check"></i> Huile chaude</li>
+                  <li><i class="fas fa-check"></i> Vapeur & massage</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3d">
+            <div class="card-3d-inner">
+              <div class="card-3d-front">
+                <div class="card-icon"><i class="fas fa-crown"></i></div>
+                <h3>Coiffage Mariage</h3>
+                <p>Coiffure cérémonie</p>
+                <span class="card-price">800 MAD</span>
+              </div>
+              <div class="card-3d-back">
+                <h4>Coiffage Mariage</h4>
+                <p>Coiffure sur-mesure pour votre jour J. Essai inclus.</p>
+                <ul>
+                  <li><i class="fas fa-check"></i> Essai offert</li>
+                  <li><i class="fas fa-check"></i> Accessoires inclus</li>
+                  <li><i class="fas fa-check"></i> Déplacement possible</li>
+                </ul>
+                <a href="#booking" class="card-cta">Réserver</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TEAM ====== -->
+  <section class="team section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Notre Équipe</span>
+        <h2 class="section-title">Artisans de <span>Votre Style</span></h2>
+        <p class="section-desc">Des coiffeurs passionnés et expérimentés à votre service</p>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="team-img">
+            <div class="team-img-placeholder">
+              <i class="fas fa-user-tie"></i>
+            </div>
+          </div>
+          <h3>Yassine El Amrani</h3>
+          <span>Fondateur & Coiffeur Expert</span>
+          <p>15 ans d'expertise – Spécialiste coupes hommes</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <div class="team-img-placeholder">
+              <i class="fas fa-user-nurse"></i>
+            </div>
+          </div>
+          <h3>Salma Benali</h3>
+          <span>Coiffeuse Professionnelle</span>
+          <p>Spécialiste coloration & coiffage femme</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <div class="team-img-placeholder">
+              <i class="fas fa-user-graduate"></i>
+            </div>
+          </div>
+          <h3>Karim Idrissi</h3>
+          <span>Barbier Expert</span>
+          <p>Maître de la barbe & du rasage traditionnel</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="team-card">
+          <div class="team-img">
+            <div class="team-img-placeholder">
+              <i class="fas fa-user-md"></i>
+            </div>
+          </div>
+          <h3>Leila Ouahbi</h3>
+          <span>Coiffeuse & Styliste</span>
+          <p>Spécialiste mèches, balayage & soins</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY ====== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Galerie</span>
+        <h2 class="section-title">Nos <span>Réalisations</span></h2>
+        <p class="section-desc">Découvrez notre travail à travers nos créations</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item gallery-item--wide"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TESTIMONIALS ====== -->
+  <section class="testimonials section" id="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Avis Clients</span>
+        <h2 class="section-title">Ce qu'ils disent <span>de nous</span></h2>
+      </div>
+      <div class="testimonials-slider" id="testimonialSlider">
+        <div class="testimonial-card active">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Meilleur salon d'Agadir ! La coupe est parfaite à chaque fois. L'équipe est très professionnelle."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>Omar H.</strong>
+              <span>Client régulier</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"J'adore le balayage qu'elle a fait ! Résultat incroyable et l'accueil est chaleureux. Je recommande à 100%."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>Fatima Z.</strong>
+              <span>Cliente fidèle</span>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testi-stars">
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+          </div>
+          <p>"Le forfait homme est top ! Coupe + barbe + soin, tout est compris et le résultat est impeccable."</p>
+          <div class="testi-author">
+            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div>
+              <strong>Mehdi R.</strong>
+              <span>Client régulier</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-nav">
+        <button id="testiPrev"><i class="fas fa-chevron-left"></i></button>
+        <div class="testi-dots"></div>
+        <button id="testiNext"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== BOOKING ====== -->
+  <section class="booking section" id="booking">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Réservation</span>
+        <h2 class="section-title">Réservez votre <span>rendez-vous</span></h2>
+        <p class="section-desc">Choisissez votre service, votre date et votre coiffeur préféré</p>
+      </div>
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <div class="b-info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <h4>Adresse</h4>
+              <p>Angle Av. Hassan II & Rue 18 Novembre, Agadir</p>
+            </div>
+          </div>
+          <div class="b-info-item">
+            <i class="fas fa-phone-alt"></i>
+            <div>
+              <h4>Téléphone</h4>
+              <p><a href="tel:+212528123456">+212 5 28 12 34 56</a></p>
+            </div>
+          </div>
+          <div class="b-info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:contact@nstagesalon.ma">contact@nstagesalon.ma</a></p>
+            </div>
+          </div>
+          <div class="b-info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <h4>Horaires</h4>
+              <p>Lun – Sam : 9h00 – 20h00<br />Dim : Fermé</p>
+            </div>
+          </div>
+          <div class="b-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <form class="booking-form" id="bookingForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Nom complet</label>
+              <input type="text" placeholder="Votre nom" required />
+              <i class="fas fa-user input-icon"></i>
+            </div>
+            <div class="form-group">
+              <label>Téléphone</label>
+              <input type="tel" placeholder="+212 6XX XXX XXX" required />
+              <i class="fas fa-phone input-icon"></i>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Service</label>
+              <select required>
+                <option value="">Choisissez un service</option>
+                <optgroup label="Homme">
+                  <option>Coupe Homme – 120 MAD</option>
+                  <option>Barbe & Moustache – 80 MAD</option>
+                  <option>Shampooing – 60 MAD</option>
+                  <option>Coloration Homme – 200 MAD</option>
+                  <option>Défrisage Homme – 250 MAD</option>
+                  <option>Forfait Homme – 250 MAD</option>
+                </optgroup>
+                <optgroup label="Femme">
+                  <option>Coupe Femme – 250 MAD</option>
+                  <option>Coloration Femme – 350 MAD</option>
+                  <option>Brushing – 150 MAD</option>
+                  <option>Mèches & Balayage – 500 MAD</option>
+                  <option>Soin Capillaire – 200 MAD</option>
+                  <option>Coiffage Mariage – 800 MAD</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Coiffeur</label>
+              <select>
+                <option value="">Préférence (optionnel)</option>
+                <option>Yassine El Amrani</option>
+                <option>Salma Benali</option>
+                <option>Karim Idrissi</option>
+                <option>Leila Ouahbi</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Date</label>
+              <input type="date" required />
+            </div>
+            <div class="form-group">
+              <label>Heure</label>
+              <input type="time" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Message (optionnel)</label>
+            <textarea placeholder="Ajoutez un message..." rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">
+            <span>Confirmer la réservation</span>
+            <i class="fas fa-calendar-check"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GOOGLE MAPS ====== -->
+  <section class="map section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nous trouver</span>
+        <h2 class="section-title">Situé au <span>Cœur d'Agadir</span></h2>
+      </div>
+    </div>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13272.891315126952!2d-9.598214!3d30.427755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDI1JzM5LjkiTiA5wqAzNSc1My42Ilc!5e0!3m2!1sfr!2sma!4v1"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Nstage Salon Agadir">
+      </iframe>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>NSTAGE<span>SALON</span></h3>
+          <p>L'excellence de la coiffure Homme & Femme à Agadir.</p>
+          <div class="footer-social">
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Liens rapides</h4>
+          <ul>
+            <li><a href="#hero">Accueil</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#booking">Réservation</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Coupe Homme</a></li>
+            <li><a href="#services">Barbe</a></li>
+            <li><a href="#services">Coloration Femme</a></li>
+            <li><a href="#services">Mariage</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Agadir, Maroc</p>
+          <p><i class="fas fa-phone"></i> +212 5 28 12 34 56</p>
+          <p><i class="fas fa-envelope"></i> contact@nstagesalon.ma</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 <strong>Nstage Salon</strong>. Tous droits réservés. Design futuriste par Nstage.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== BACK TO TOP ====== -->
+  <button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
