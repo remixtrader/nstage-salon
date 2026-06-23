@@ -169,11 +169,6 @@ img{max-width:100%;display:block}
   background:var(--glass);border:1px solid var(--glass-border);color:var(--text)
 }
 .btn-secondary:hover{background:var(--glass-hover);border-color:rgba(99,102,241,.3);transform:translateY(-3px)}
-.hero-stats{
-  display:flex;gap:60px;justify-content:center;margin-top:60px;
-  animation:fadeInUp .8s .8s both
-}
-@media(max-width:600px){.hero-stats{flex-direction:row;gap:20px;flex-wrap:wrap}}
 .stat-item{display:flex;flex-direction:column;align-items:center;gap:4px}
 .stat-num{font-size:40px;font-weight:800;background:linear-gradient(135deg,var(--primary-light),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
 .stat-label{font-size:11px;color:var(--text-muted);text-transform:uppercase;letter-spacing:2px}
@@ -240,6 +235,7 @@ img{max-width:100%;display:block}
 .a-feature i{font-size:20px;background:linear-gradient(135deg,var(--primary-light),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-top:2px}
 .a-feature h4{font-size:15px;font-weight:600;margin-bottom:2px}
 .a-feature p{font-size:13px;color:var(--text-muted)}
+.about-stats{display:flex;gap:60px;justify-content:center;margin-top:48px;padding:32px 0;border-top:1px solid var(--glass-border)}
 
 /* ====== SERVICES 3D ====== */
 .services{background:var(--bg);position:relative}
