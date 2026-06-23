@@ -198,4 +198,4 @@ document.querySelectorAll('.card-3d').forEach(card => {
   });
 });
 
-console.log('🚀 Nstage Salon – Site chargé avec succès !');
+console.log('Nstage Salon – Site chargé avec succès !');

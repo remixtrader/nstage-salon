@@ -13,6 +13,13 @@
   <!-- ====== CURSOR ====== -->
   <div class="cursor-glow" id="cursorGlow"></div>
 
+  <!-- ====== WHATSAPP FLOATING ====== -->
+  <a href="https://wa.me/212528123456?text=Bonjour%20Nstage%20Salon%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous"
+     class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="wa-tooltip">Réserver par WhatsApp</span>
+  </a>
+
   <!-- ====== PRELOADER ====== -->
   <div class="preloader" id="preloader">
     <div class="preloader-inner">
@@ -45,12 +52,11 @@
   <!-- ====== HERO ====== -->
   <section class="hero" id="hero">
     <div class="hero-overlay"></div>
-    <!-- Video background – change src to your video URL -->
-    <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
-      <source src="https://cdn.pixabay.com/vimeo/710392041/coiffure-120517.mp4?width=1280" type="video/mp4" />
+    <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1920&q=80">
+      <source src="https://res.cloudinary.com/dvitdvczf/video/upload/v1781830095/videoplayback_bf49i4.mp4" type="video/mp4" />
     </video>
     <div class="hero-content">
-      <div class="hero-badge">Agadir – Maroc</div>
+      <div class="hero-badge"><i class="fas fa-map-pin"></i> Agadir – Maroc</div>
       <h1 class="hero-title">
         <span class="text-reveal">NSTAGE</span>
         <span class="text-reveal delay-2">SALON</span>
@@ -61,6 +67,11 @@
           <span>Réserver maintenant</span>
           <i class="fas fa-arrow-right"></i>
         </a>
+        <a href="https://wa.me/212528123456?text=Bonjour%20Nstage%20Salon%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous"
+           target="_blank" rel="noopener" class="btn-secondary">
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
         <a href="#services" class="btn-secondary">
           <span>Nos services</span>
           <i class="fas fa-scissors"></i>
@@ -68,7 +79,7 @@
       </div>
       <div class="hero-stats">
         <div class="stat-item">
-          <span class="stat-num" data-count="15">0</span><span class="stat-plus">+</span>
+          <span class="stat-num" data-count="15">0</span><span class="stat-plus"></span>
           <span class="stat-label">Ans d'expérience</span>
         </div>
         <div class="stat-item">
@@ -98,10 +109,8 @@
       <div class="about-grid">
         <div class="about-image">
           <div class="about-img-frame">
-            <div class="about-img-placeholder">
-              <i class="fas fa-cut"></i>
-              <span>Notre Salon</span>
-            </div>
+            <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80"
+                 alt="Nstage Salon Intérieur" class="about-img" loading="lazy" />
           </div>
           <div class="about-exp">
             <span class="exp-num">15+</span>
@@ -134,7 +143,7 @@
     </div>
   </section>
 
-  <!-- ====== SERVICES (3D MENU) ====== -->
+  <!-- ====== SERVICES 3D ====== -->
   <section class="services section" id="services">
     <div class="container">
       <div class="section-header">
@@ -142,7 +151,6 @@
         <h2 class="section-title">Notre <span>Menu</span> 3D</h2>
         <p class="section-desc">Découvrez nos prestations – Cliquez pour explorer chaque service en 3D</p>
       </div>
-      <!-- Tabs Homme / Femme -->
       <div class="service-tabs">
         <button class="tab-btn active" data-tab="homme">
           <i class="fas fa-male"></i> Homme
@@ -164,7 +172,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Coupe Homme</h4>
-                <p>Coupe personnalisée selon votre morphologie et tendances. Shampooing & soin inclus.</p>
+                <p>Coupe personnalisée selon votre morphologie et tendances</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Shampooing premium</li>
                   <li><i class="fas fa-check"></i> Coiffage</li>
@@ -184,7 +192,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Barbe & Moustache</h4>
-                <p>Taille précise au peigne et ciseaux, soin à l'huile naturelle.</p>
+                <p>Taille précise au peigne et ciseaux, soin à l'huile naturelle</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Taille précise</li>
                   <li><i class="fas fa-check"></i> Huile & soin</li>
@@ -204,7 +212,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Shampooing Homme</h4>
-                <p>Shampooing professionnel avec massage du cuir chevelu.</p>
+                <p>Shampooing professionnel avec massage du cuir chevelu</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Shampooing bio</li>
                   <li><i class="fas fa-check"></i> Massage crânien</li>
@@ -224,7 +232,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Coloration Homme</h4>
-                <p>Coloration naturelle sans ammoniaque. Résultats éclatants.</p>
+                <p>Coloration naturelle sans ammoniaque, résultats éclatants</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Couleur sur mesure</li>
                   <li><i class="fas fa-check"></i> Soin post-couleur</li>
@@ -244,7 +252,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Défrisage Homme</h4>
-                <p>Traitement professionnel pour cheveux lisses et brillants.</p>
+                <p>Traitement professionnel pour cheveux lisses et brillants</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Défrisage doux</li>
                   <li><i class="fas fa-check"></i> Soin keratin</li>
@@ -264,7 +272,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Forfait Homme</h4>
-                <p>Le pack complet : coupe tendance, barbe stylée et soin visage.</p>
+                <p>Le pack complet : coupe tendance, barbe stylisée et soin visage</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Coupe + Barbe</li>
                   <li><i class="fas fa-check"></i> Soin visage</li>
@@ -287,7 +295,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Coupe Femme</h4>
-                <p>Coupe personnalisée selon votre visage et vos envies.</p>
+                <p>Coupe personnalisée selon votre visage et vos envies</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Consultation morpho</li>
                   <li><i class="fas fa-check"></i> Coupe tendance</li>
@@ -307,7 +315,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Coloration Femme</h4>
-                <p>Coloration professionnelle aux pigments naturels.</p>
+                <p>Coloration professionnelle aux pigments naturels</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Couleur sur mesure</li>
                   <li><i class="fas fa-check"></i> Mèches / Balayage</li>
@@ -327,7 +335,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Brushing</h4>
-                <p>Brushing tenue longue durée avec produits thermo-protecteurs.</p>
+                <p>Brushing tenue longue durée avec produits thermo-protecteurs</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Lissage ou volume</li>
                   <li><i class="fas fa-check"></i> Thermo-protection</li>
@@ -347,7 +355,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Mèches & Balayage</h4>
-                <p>Technique artisanale pour un effet lumineux naturel.</p>
+                <p>Technique artisanale pour un effet lumineux naturel</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Balayage main levée</li>
                   <li><i class="fas fa-check"></i> Mèches fines ou épaisses</li>
@@ -367,7 +375,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Soin Capillaire</h4>
-                <p>Traitement nutritif pour cheveux abîmés ou secs.</p>
+                <p>Traitement nutritif pour cheveux abîmés ou secs</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Masque hydratant</li>
                   <li><i class="fas fa-check"></i> Huile chaude</li>
@@ -387,7 +395,7 @@
               </div>
               <div class="card-3d-back">
                 <h4>Coiffage Mariage</h4>
-                <p>Coiffure sur-mesure pour votre jour J. Essai inclus.</p>
+                <p>Coiffure sur-mesure pour votre jour J. Essai inclus</p>
                 <ul>
                   <li><i class="fas fa-check"></i> Essai offert</li>
                   <li><i class="fas fa-check"></i> Accessoires inclus</li>
@@ -413,59 +421,63 @@
       <div class="team-grid">
         <div class="team-card">
           <div class="team-img">
-            <div class="team-img-placeholder">
-              <i class="fas fa-user-tie"></i>
+            <div class="team-img-card">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Yassine El Amrani" loading="lazy" />
             </div>
           </div>
           <h3>Yassine El Amrani</h3>
           <span>Fondateur & Coiffeur Expert</span>
           <p>15 ans d'expertise – Spécialiste coupes hommes</p>
           <div class="team-social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
+          <a href="https://wa.me/212528123456?text=Bonjour%20Yassine%2C%20je%20souhaite%20un%20rendez-vous" target="_blank" rel="noopener" class="team-wa"><i class="fab fa-whatsapp"></i> Contacter</a>
         </div>
         <div class="team-card">
           <div class="team-img">
-            <div class="team-img-placeholder">
-              <i class="fas fa-user-nurse"></i>
+            <div class="team-img-card">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Salma Benali" loading="lazy" />
             </div>
           </div>
           <h3>Salma Benali</h3>
           <span>Coiffeuse Professionnelle</span>
           <p>Spécialiste coloration & coiffage femme</p>
           <div class="team-social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
+          <a href="https://wa.me/212528123456?text=Bonjour%20Salma%2C%20je%20souhaite%20un%20rendez-vous" target="_blank" rel="noopener" class="team-wa"><i class="fab fa-whatsapp"></i> Contacter</a>
         </div>
         <div class="team-card">
           <div class="team-img">
-            <div class="team-img-placeholder">
-              <i class="fas fa-user-graduate"></i>
+            <div class="team-img-card">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=400&q=80" alt="Karim Idrissi" loading="lazy" />
             </div>
           </div>
           <h3>Karim Idrissi</h3>
           <span>Barbier Expert</span>
           <p>Maître de la barbe & du rasage traditionnel</p>
           <div class="team-social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
+          <a href="https://wa.me/212528123456?text=Bonjour%20Karim%2C%20je%20souhaite%20un%20rendez-vous" target="_blank" rel="noopener" class="team-wa"><i class="fab fa-whatsapp"></i> Contacter</a>
         </div>
         <div class="team-card">
           <div class="team-img">
-            <div class="team-img-placeholder">
-              <i class="fas fa-user-md"></i>
+            <div class="team-img-card">
+              <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=400&q=80" alt="Leila Ouahbi" loading="lazy" />
             </div>
           </div>
           <h3>Leila Ouahbi</h3>
           <span>Coiffeuse & Styliste</span>
           <p>Spécialiste mèches, balayage & soins</p>
           <div class="team-social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
           </div>
+          <a href="https://wa.me/212528123456?text=Bonjour%20Leila%2C%20je%20souhaite%20un%20rendez-vous" target="_blank" rel="noopener" class="team-wa"><i class="fab fa-whatsapp"></i> Contacter</a>
         </div>
       </div>
     </div>
@@ -480,12 +492,24 @@
         <p class="section-desc">Découvrez notre travail à travers nos créations</p>
       </div>
       <div class="gallery-grid">
-        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
-        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
-        <div class="gallery-item gallery-item--wide"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
-        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
-        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
-        <div class="gallery-item"><div class="gallery-placeholder"><i class="fas fa-cut"></i></div></div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80" alt="Coupe homme tendance" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=600&q=80" alt="Coiffure femme" loading="lazy" />
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <img src="https://images.unsplash.com/photo-1521590832167-161c3f2e1ef7?auto=format&fit=crop&w=1200&q=80" alt="Salon intérieur" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1503951914875-452cb02b34cd?auto=format&fit=crop&w=600&q=80" alt="Barbe stylée" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1635262543261-b92c54be6854?auto=format&fit=crop&w=600&q=80" alt="Salon moderne" loading="lazy" />
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1526947425960-945c6e72858f?auto=format&fit=crop&w=600&q=80" alt="Produits coiffure" loading="lazy" />
+        </div>
       </div>
     </div>
   </section>
@@ -504,7 +528,9 @@
           </div>
           <p>"Meilleur salon d'Agadir ! La coupe est parfaite à chaque fois. L'équipe est très professionnelle."</p>
           <div class="testi-author">
-            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div class="testi-avatar">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Omar" loading="lazy" />
+            </div>
             <div>
               <strong>Omar H.</strong>
               <span>Client régulier</span>
@@ -517,7 +543,9 @@
           </div>
           <p>"J'adore le balayage qu'elle a fait ! Résultat incroyable et l'accueil est chaleureux. Je recommande à 100%."</p>
           <div class="testi-author">
-            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div class="testi-avatar">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&q=80" alt="Fatima" loading="lazy" />
+            </div>
             <div>
               <strong>Fatima Z.</strong>
               <span>Cliente fidèle</span>
@@ -530,7 +558,9 @@
           </div>
           <p>"Le forfait homme est top ! Coupe + barbe + soin, tout est compris et le résultat est impeccable."</p>
           <div class="testi-author">
-            <div class="testi-avatar"><i class="fas fa-user"></i></div>
+            <div class="testi-avatar">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Mehdi" loading="lazy" />
+            </div>
             <div>
               <strong>Mehdi R.</strong>
               <span>Client régulier</span>
@@ -539,9 +569,9 @@
         </div>
       </div>
       <div class="testi-nav">
-        <button id="testiPrev"><i class="fas fa-chevron-left"></i></button>
+        <button id="testiPrev" aria-label="Précédent"><i class="fas fa-chevron-left"></i></button>
         <div class="testi-dots"></div>
-        <button id="testiNext"><i class="fas fa-chevron-right"></i></button>
+        <button id="testiNext" aria-label="Suivant"><i class="fas fa-chevron-right"></i></button>
       </div>
     </div>
   </section>
@@ -584,9 +614,13 @@
               <p>Lun – Sam : 9h00 – 20h00<br />Dim : Fermé</p>
             </div>
           </div>
+          <a href="https://wa.me/212528123456?text=Bonjour%20Nstage%20Salon%2C%20je%20souhaite%20r%C3%A9server%20un%20rendez-vous"
+             target="_blank" rel="noopener" class="b-wa-btn">
+            <i class="fab fa-whatsapp"></i> Réserver par WhatsApp
+          </a>
           <div class="b-social">
             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
             <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
           </div>
@@ -662,9 +696,9 @@
   </section>
 
   <!-- ====== GOOGLE MAPS ====== -->
-  <section class="map section" id="contact">
-    <div class="container">
-      <div class="section-header">
+  <section class="map" id="contact">
+    <div class="container" style="margin-bottom:40px">
+      <div class="section-header" style="margin-bottom:0">
         <span class="section-tag">Nous trouver</span>
         <h2 class="section-title">Situé au <span>Cœur d'Agadir</span></h2>
       </div>
@@ -689,7 +723,7 @@
           <p>L'excellence de la coiffure Homme & Femme à Agadir.</p>
           <div class="footer-social">
             <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-            <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/212528123456" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
             <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
             <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
           </div>
@@ -717,10 +751,11 @@
           <p><i class="fas fa-map-marker-alt"></i> Agadir, Maroc</p>
           <p><i class="fas fa-phone"></i> +212 5 28 12 34 56</p>
           <p><i class="fas fa-envelope"></i> contact@nstagesalon.ma</p>
+          <p><i class="fab fa-whatsapp"></i> +212 5 28 12 34 56</p>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 <strong>Nstage Salon</strong>. Tous droits réservés. Design futuriste par Nstage.</p>
+        <p>&copy; 2026 <strong>Nstage Salon</strong>. Tous droits réservés.</p>
       </div>
     </div>
   </footer>
